@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #000;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.passion {
+    color: #00ff15;
+    font-weight: bold;
+}
+
+.logistics {
+    color: #00ff15;
+    font-weight: bold;
+}
+
+.mission {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 0;
+    color: #222;
+}
+
+/* Divider Line */
+.divider {
+    border-top: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Card Stack Layout */
+.card-stack {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.yellow-card {
+    background-color: #FFD700;
+    color: #000;
+    width: fit-content;
+    max-width: 60%;
+    margin: 0;
+    padding: 15px 15px;
+    position: relative;
+    z-index: 2;
+    top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.white-card {
+    background-color: #FFF;
+    color: #333;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    padding: 40px 25px 25px 25px;
+}
+
+.yellow-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.white-card p {
+    margin: 0 0 15px 0;
+}
+
+.white-card p:last-child {
+    margin-bottom: 0;
+}
