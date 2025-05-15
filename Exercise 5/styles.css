@@ -26,8 +26,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 20px 0;
-  margin-bottom: 30px;
+   margin-bottom: 10px
 }
 
 @media (min-width: 768px) {
@@ -77,9 +76,15 @@ nav a {
   color: #093977;
 }
 
+.divider {
+    border-top: 2px solid #ddd;
+    margin: 20px auto;
+    width: 99%;
+}
 /* Main checkout styles */
 .checkout-wrapper {
   flex: 1;
+   margin-top: 80px;
 }
 
 .checkout-card {
@@ -124,9 +129,10 @@ nav a {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 30px;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: #1D2C3C;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 768px) {
