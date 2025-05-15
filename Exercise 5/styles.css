@@ -85,7 +85,7 @@ nav a {
 .checkout-card {
   display: flex;
   flex-direction: column;
-  background: white;
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   overflow: hidden;
@@ -259,7 +259,7 @@ input[type="email"] {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 @media (min-width: 768px) {
@@ -271,12 +271,12 @@ input[type="email"] {
 .price span {
   font-size: 14px;
   font-weight: normal;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 .renew-note {
   font-size: 12px;
-  color: whitesmoke;
+  color: #f5f5f5;
   margin-bottom: 20px;
 }
 
@@ -290,16 +290,16 @@ input[type="email"] {
   font-size: 14px;
   position: relative;
   padding-left: 25px;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 .features li:before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #fff;
+  color: #B9F5FF;
   background: transparent;
-  border: 2px solid #ffffff;
+  border: 2px solid #B9F5FF;
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -313,7 +313,7 @@ input[type="email"] {
 
 .switch-plan {
   font-size: 14px;
-  color: whitesmoke;
+  color: #f5f5f5;
   margin-bottom: 25px;
   line-height: 1.6;
 }
@@ -340,11 +340,11 @@ input[type="email"] {
   font-size: 14px;
   margin-bottom: 15px;
   line-height: 1.6;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 .testimonial p strong {
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 .author {
@@ -362,7 +362,7 @@ input[type="email"] {
 .author span {
   font-size: 14px;
   font-weight: bold;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 /* Footer styles */
