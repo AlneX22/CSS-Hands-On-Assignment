@@ -297,7 +297,18 @@ input[type="email"] {
   content: "✔";
   position: absolute;
   left: 0;
-  color: whitesmoke;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: none;
 }
 
 .switch-plan {
